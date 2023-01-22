@@ -1,0 +1,193 @@
+header {
+  background-image: linear-gradient(
+    90deg,
+    var(--home-color) 0 50%,
+    var(--nav-color) 50%
+  );
+}
+
+nav {
+  width: 100%;
+  background-image: linear-gradient(
+    90deg,
+    var(--home-color) 0 50%,
+    var(--nav-color) 50%
+  );
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 30;
+}
+
+.nav-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 0;
+  align-items: center;
+}
+
+
+
+#dark-light {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-end button img {
+  height: 32px;
+  width: 32px;
+}
+
+.nav-center li {
+  display: inline-block;
+}
+
+.nav-center li a {
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 60px;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--main-color);
+}
+
+.nav-center li a:hover {
+  color: var(--nav-hover);
+}
+
+.nav-end button {
+  background-color: transparent;
+  border: 1px solid var(--main-color);
+  border-radius: 0px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 16px 31px;
+  margin-left: 30px;
+  font-size: 18px;
+  line-height: 30px;
+
+  color: var(--main-color);
+}
+
+.menu {
+  display: none;
+}
+
+/* --Home-- */
+
+.home-card {
+  display: flex;
+  padding-top: 236px;
+  padding-bottom: 250px;
+  flex-wrap: wrap;
+}
+
+.home-left,
+.home-end {
+  width: 50%;
+}
+
+.esport {
+  margin-bottom: 24px;
+}
+
+.home-button p {
+  font-style: normal;
+  font-weight: 400;
+  max-width: 615px;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--home-button);
+}
+
+.esport a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--nav-color);
+  text-transform: uppercase;
+}
+
+.home-content {
+  max-width: 656px;
+}
+
+.home-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  color: var(--main-color);
+  text-transform: capitalize;
+}
+
+.home-content {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.home-img {
+  position: absolute;
+  top: 165px;
+  right: 0;
+}
+
+.home-img img {
+  width: 100%;
+}
+
+.home-end img {
+  width: 100%;
+}
+
+.home-button button {
+  margin-top: 53px;
+  padding: 21px 34px;
+  border: none;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-color);
+  text-transform: capitalize;
+  transition: 0.7s;
+}
+
+.home-button button:hover {
+  cursor: pointer;
+  background: var(--nav-color);
+}
+
+@media (max-width: 1120px) {
+  .nav-center {
+    display: none;
+  }
+  .home-left,
+  .home-end {
+    width: 100%;
+  }
+
+  .home-end img {
+    width: 80%;
+  }
+
+  .home-content p {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 550px) {
+  .menu {
+    display: block;
+  }
+
+  .nav-end {
+    display: none;
+  }
+  .home-content p {
+    font-size: 40px;
+  }
+}

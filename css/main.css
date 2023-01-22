@@ -1,0 +1,485 @@
+@import "./common.css";
+@import "./header.css";
+@import "./footer.css";
+
+#spon {
+  background: var(--our-color);
+}
+
+.our-top {
+  padding-top: 128px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.our-conten h1 {
+  font-style: normal;
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222730;
+  text-transform: capitalize;
+}
+
+.our-end p {
+  margin-top: 30px;
+  max-width: 576px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 26px;
+  color: #555555;
+}
+
+.our-button {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+  margin-top: 41px;
+  padding-bottom: 131px;
+}
+
+.our-items {
+  width: 16.6%;
+  margin-bottom: 20px;
+}
+
+/* --about-- */
+
+#about {
+  background-image: url(../images/about.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 136px;
+}
+
+.about-content h1 {
+  font-style: normal;
+  max-width: 716px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color:#FFFFFF ;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.about-content p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  max-width: 698px;
+  color: rgba(223, 223, 223, 0.8);
+  margin-bottom: 60px;
+}
+
+.about-call {
+  padding-bottom: 133px;
+}
+
+.about-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.about-card-item {
+  flex: 1;
+  max-width: 642px;
+  margin-bottom: 32px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+}
+
+.card-item-top {
+  display: flex;
+
+  padding: 35px 0 19px 38px;
+}
+
+.about-card-item h1 {
+  margin-left: 18px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.card-content p {
+  padding: 0 40px 34px 87px;
+  font-style: normal;
+  max-width: 515px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(223, 223, 223, 0.8);
+}
+
+/* --Taem-- */
+
+#team {
+  background: var(--home-color);
+}
+
+.team-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 108px;
+}
+
+.taem-left,
+.taem-end {
+  flex: 1;
+}
+
+.taem-left {
+  padding-top: 130px;
+  padding-bottom: 123px;
+}
+
+.taem-end {
+  padding-top: 85px;
+  padding-bottom: 85px;
+}
+
+.content-team h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: var(--main-color);
+  max-width: 684px;
+  text-transform: capitalize;
+}
+.content-team p {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  max-width: 721px;
+  margin-top: 38px;
+  color: var(--rgb-color);
+}
+
+.content-team button {
+  margin-top: 53px;
+  padding: 21px 34px;
+  border: none;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--main-color);
+  text-transform: capitalize;
+  transition: 0.7s;
+}
+
+.content-team button:hover {
+  cursor: pointer;
+  background: var(--nav-color);
+}
+
+.shop-container {
+  display: flex;
+}
+
+.shop-card,
+.shop-center,
+.shop-end {
+  flex: 1;
+}
+
+.shop-card h1,
+.shop-center h1,
+.shop-end h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.shop-card {
+  /* max-width: 480px; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../images/shop.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 282px 72px 340px;
+}
+
+.shop-center {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 282px 72px 340px;
+
+  background-image: url(../images/shop2.png);
+}
+
+.shop-end {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 282px 72px 340px;
+
+  background-image: url(../images/shop3.png);
+}
+
+/* --pages-- */
+
+#pages {
+  background: var(--home-color);
+}
+
+.pages-top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 81px;
+}
+
+.esport h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+  color: var(--main-color);
+  margin-top: 22px;
+  text-transform: capitalize;
+}
+
+.pages-end button {
+  font-weight: 400;
+  margin-top: 150px;
+  background-color: transparent;
+  padding: 21px 34px;
+  font-size: 17px;
+  line-height: 28px;
+  color: var(--main-color);
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.pages-end button:hover {
+  background-color: var(--nav-color);
+}
+
+/* --pages-conten-- */
+
+.pages-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.pages-coll-left {
+  padding-top: 68px;
+  padding-bottom: 86px;
+}
+
+.pages-coll-end {
+  padding-top: 74px;
+  padding-bottom: 56px;
+}
+
+.pages-coll-left,
+.pages-coll-end {
+  flex: 1;
+}
+
+.pages-coll-end {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.coll-card {
+  flex: 1;
+}
+
+.coll-img img {
+  width: 100%;
+}
+.coll-button h1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  max-width: 607px;
+  line-height: 46px;
+  color: var(--main-color);
+
+  text-transform: capitalize;
+}
+
+.coll-button p {
+  margin-top: 54px;
+  margin-bottom: 28px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  color: var(--nav-color);
+}
+
+.coll-card-con p {
+  padding-top: 30px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: var(--nav-color);
+}
+
+.coll-card-con h2 {
+  max-width: 281px;
+  margin-bottom: 25px;
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+  color: var(--main-color);
+
+  text-transform: capitalize;
+}
+
+@media (max-width: 1215px) {
+  .our-items {
+    width: 33%;
+  }
+
+  .shop-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about-card {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .about-content {
+    width: 80%;
+  }
+
+  .team-row {
+    flex-direction: column;
+  }
+
+  .pages-content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .pages-top {
+    flex-direction: column;
+  }
+
+  .esport h1 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .esport {
+    text-align: center;
+  }
+  .pages-end {
+    text-align: center;
+  }
+
+  .footer-content h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 700px) {
+  .our-items {
+    width: 50%;
+  }
+
+  .team-row {
+    width: 60%;
+    align-items: center;
+  }
+  .content-team h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .about-conten {
+    width: 50%;
+  }
+
+  .card-item-top h1 {
+    font-size: 25px;
+  }
+
+  .pages-coll-end {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .your-email{
+    width: 50%;
+  }
+  
+}
+
+@media (max-width: 450px) {
+  .our-items {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-conten h1 {
+    font-size: 32px;
+  }
+  .shop-card h1,
+  .shop-center h1,
+  .shop-end h1 {
+    width: 80%;
+  }
+  .coll-button {
+    font-size: 25px;
+  }
+}
