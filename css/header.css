@@ -19,7 +19,7 @@ nav {
  
   padding: 38px 0;
   box-shadow: 0 3px 10px 3px grey;
-  tr
+  transition: 0.3s;
 }
 
 .nav-top {
