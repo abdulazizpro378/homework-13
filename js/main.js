@@ -34,7 +34,7 @@ const myLightColors = {
 const myDarkColors = {
   "--main-color": "#030303",
   "--button-color": "#0080ff",
-  "--home-color": "#fff",
+  "--home-color": "#57b8ff",
   "--rgb-color":"#030303"
   
 };
@@ -59,3 +59,19 @@ btn.addEventListener("click", (e) => {
 setTimeout(() => {
   document.getElementById("loading").style.display = "none";
 }, 1000);
+
+
+
+window.addEventListener("scroll", function () {
+  shrink();
+});
+
+let navbar = document.getElementById("navbar");
+
+function shrink() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    navbar.classList.add("navbar-shrink");
+  } else {
+		navbar.classList.remove("navbar-shrink");
+	}
+}
